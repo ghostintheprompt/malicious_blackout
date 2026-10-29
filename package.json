@@ -1,0 +1,9 @@
+{
+  "name": "malicious_blackout",
+  "version": "0.1.0",
+  "description": "A chained AI red-team bench: indirect prompt injection promoted to a task, a confused-deputy orchestrator, and excessive agency ending in a utility remote disconnect. Vulnerable and fixed targets, one automated test.",
+  "scripts": {
+    "test": "node cases/01-unsigned-task-token/test.js && node cases/02-synthetic-identity-gate/test.js"
+  },
+  "license": "MIT"
+}
